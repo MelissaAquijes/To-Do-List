@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 import './ContainerAll.css';
 
 function ContainerAll({children}) {
   return (
-    <div className="container">
+    <div className='container'>
       {children}
     </div>
   );

@@ -2,7 +2,7 @@ import profileImg from '../assets/profile.jpg';
 import '../styles/Header.css';
 
 function Header() {
-  return(
+  return (
     <header>
       <img
         className='profileImg'
