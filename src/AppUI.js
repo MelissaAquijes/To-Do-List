@@ -5,6 +5,8 @@ import { ContainerNav } from './ContainerNav';
 import { TodoSearch } from './components/TodoSearch';
 import { CreateTodoButton } from './components/CreateTodoButton';
 import { TodoTittleCounter } from './components/TodoTittleCounter';
+import { TodoList } from './components/TodoList';
+import { TodoItem } from './components/TodoItem';
 
 
 function AppUI() {
@@ -16,6 +18,9 @@ function AppUI() {
         <CreateTodoButton />
       </ContainerNav>
       <TodoTittleCounter />
+      <TodoList>
+        <TodoItem />
+      </TodoList>
 
     </ContainerAll>
 
