@@ -1,9 +1,16 @@
 header {
-  width: 100%;
+  width: 90%;
   height: 80px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
+  background: rgba( 255, 255, 255, 0.10 );
+  box-shadow: 3px 0px 15px rgba(31, 31, 31, 0.37);
+    -webkit-backdrop-filter: blur( 4px );
+            backdrop-filter: blur( 4px );
+  border-radius: 15px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  margin-top: 13px;
 }
 
 .profileImg {
@@ -14,6 +21,8 @@ header {
 
 .welcomeContainer {
   text-align: center;
+  line-height: 10px;
+  margin-left: 25px;
 }
 
 .welcome {

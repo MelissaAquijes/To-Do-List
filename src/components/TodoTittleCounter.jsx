@@ -1,7 +1,9 @@
+import '../styles/TodoTittleCounter.css';
+
 function TodoTittleCounter() {
   return (
-    <h1>
-      Has completado 2 de 5 to do's.
+    <h1 className="tittleCounter">
+      You have completed <span>2</span> of <span>5</span> to do's.
     </h1>
   );
 }
