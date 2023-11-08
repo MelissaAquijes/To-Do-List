@@ -4,6 +4,7 @@ import { ContainerAll } from '../containers/ContainerAll';
 import { ContainerNav } from '../containers/ContainerNav';
 import { TodoSearch } from './TodoSearch';
 import { CreateTodoButton } from './CreateTodoButton';
+import { Modal } from './components/Modal';
 import { TodoTittleCounter } from './TodoTittleCounter';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
