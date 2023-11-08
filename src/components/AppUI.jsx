@@ -5,11 +5,14 @@ import { ContainerNav } from '../containers/ContainerNav';
 import { TodoSearch } from './TodoSearch';
 import { CreateTodoButton } from './CreateTodoButton';
 import { Modal } from './components/Modal';
+import { TodoForm } from './components/TodoForm';
 import { TodoTittleCounter } from './TodoTittleCounter';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
+import { TodosLoading } from './components/TodosLoading';
 import { TodoContext } from '../context/TodoContext';
 import { EmptyTodos} from './EmptyTodos';
+import React from 'react';
 
 function AppUI() {
   const {
