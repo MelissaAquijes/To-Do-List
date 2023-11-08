@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContainerAll.css';
+import '../styles/ContainerAll.css';
 
-function ContainerAll({children}) {
+function ContainerAll({ children }) {
   return (
     <div className='container'>
       {children}

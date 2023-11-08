@@ -1,5 +1,5 @@
 import React from 'react';
-import { AppUI } from './AppUI';
+import { AppUI } from './components/AppUI';
 import './App.css';
 
 function App() {

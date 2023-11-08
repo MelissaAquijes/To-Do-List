@@ -1,7 +1,7 @@
 import React from 'react';
-import './ContainerNav.css';
+import '../styles/ContainerNav.css';
 
-function ContainerNav({children}) {
+function ContainerNav({ children }) {
   return (
     <div className='containerNav'>
       {children}
