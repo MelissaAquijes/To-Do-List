@@ -4,15 +4,15 @@ import { ContainerAll } from '../containers/ContainerAll';
 import { ContainerNav } from '../containers/ContainerNav';
 import { TodoSearch } from './TodoSearch';
 import { CreateTodoButton } from './CreateTodoButton';
-import { Modal } from './components/Modal';
-import { TodoForm } from './components/TodoForm';
+import { Modal } from './Modal';
+import { TodoForm } from './TodoForm';
 import { TodoTittleCounter } from './TodoTittleCounter';
 import { TodoList } from './TodoList';
 import { TodoItem } from './TodoItem';
-import { TodosLoading } from './components/TodosLoading';
+import { TodosLoading } from './TodosLoading';
+import { TodosError } from './TodosError';
 import { TodoContext } from '../context/TodoContext';
 import { EmptyTodos} from './EmptyTodos';
-import React from 'react';
 
 function AppUI() {
   const {
@@ -35,18 +35,18 @@ function AppUI() {
           setOpenModal={setOpenModal}
         />
 
-        {openModal && (
-        <Modal>
-          <TodoForm />
-        </Modal>
-      )}
+          {openModal && (
+          <Modal>
+            <TodoForm />
+          </Modal>
+        )}
 
       </ContainerNav>
 
       <TodoTittleCounter />
 
       <TodoList>
-      {loading && <TodosLoading />}
+        {loading && <TodosLoading />}
         {error && <TodosError />}
         {(!loading && searchTodos.length === 0) && <EmptyTodos />}
         {searchTodos.map(todo => (

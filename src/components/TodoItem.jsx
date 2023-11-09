@@ -1,9 +1,17 @@
-function TodoItem() {
+function TodoItem(props) {
   return (
     <li>
-      <span>V</span>
-      <p>Realizar ejercicio.</p>
-      <span>X</span>
+      <span
+      onClick={props.onComplete}>
+      V
+      </span>
+
+      <p>{props.text}</p>
+
+      <span
+      onClick={props.onDelete}>
+      X
+      </span>
     </li>
   );
 }

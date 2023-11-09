@@ -1,5 +1,5 @@
-import React from "react";
-import { TodoContext } from "../context/TodoContext";
+import React from 'react';
+import { TodoContext } from '../context/TodoContext';
 
 function TodoForm() {
   const {
@@ -27,20 +27,20 @@ function TodoForm() {
     <form onSubmit={onSubmit}>
       <label>Write your new to do!</label>
       <textarea
-        placeholder="Write here..."
+        placeholder='Write here...'
         value={newTodoValue}
         onChange={onChange}
       />
 
       <div>
         <button
-          type="button"
+          type='button'
           onClick={onCancel}>
         Cancel
         </button>
 
         <button
-          type="submit">
+          type='submit'>
         Add
         </button>
       </div>
