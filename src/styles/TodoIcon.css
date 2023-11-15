@@ -1,0 +1,25 @@
+.icon-container {
+  cursor: pointer;
+  padding: 0 13px;
+}
+
+.icon-container-check--active {
+  color: #8C82FC;
+}
+
+.icon-container-delete:hover {
+  color: red;
+}
+
+.icon-svg {
+  width: 24px;
+  height: 24px;
+}
+
+.icon-container-check:hover .icon-svg {
+  fill: #8C82FC;
+}
+
+.icon-container-delete:hover .icon-svg {
+  fill: #F266AB;
+}

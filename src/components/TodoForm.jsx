@@ -1,5 +1,6 @@
 import React from 'react';
 import { TodoContext } from '../context/TodoContext';
+import '../styles/TodoForm.css';
 
 function TodoForm() {
   const {
@@ -24,22 +25,31 @@ function TodoForm() {
   };
 
   return(
-    <form onSubmit={onSubmit}>
-      <label>Write your new to do!</label>
+    <form
+      className='form'
+      onSubmit={onSubmit}
+    >
+      <label className='label'>
+        Write your new to do!
+      </label>
+
       <textarea
+        className='textarea'
         placeholder='Write here...'
         value={newTodoValue}
         onChange={onChange}
       />
 
-      <div>
+      <div className='buttonsContainer'>
         <button
+          className='buttonForm'
           type='button'
           onClick={onCancel}>
         Cancel
         </button>
 
         <button
+          className='buttonForm'
           type='submit'>
         Add
         </button>

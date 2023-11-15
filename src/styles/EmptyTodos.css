@@ -1,0 +1,16 @@
+.pTodo {
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba( 255, 255, 255, 0.10 );
+  -webkit-backdrop-filter: blur( 4px );
+          backdrop-filter: blur( 4px );
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+  border-radius: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px rgb(60, 60, 60);
+}

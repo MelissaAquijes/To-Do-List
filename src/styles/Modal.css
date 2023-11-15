@@ -1,12 +1,16 @@
 .ModalBackground {
-  background-color: rgba(32,35,41,.8);
+  background-image: url(../assets/background2.png), linear-gradient(to right top, #ffc5a5, #ffbba5, #ffb2a9, #ffaaaf, #ffa2b7, #fca0be, #f79fc6, #f19ecd, #eba1d1, #e5a4d5, #e0a7d8, #daaada);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left;
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+
+  transition: opacity 0.3s ease, visibility 0.3s ease;
 }
